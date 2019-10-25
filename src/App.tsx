@@ -1,6 +1,8 @@
 import React from 'react';
+import Button from '@material/react-button';
 import logo from './logo.svg';
 import './App.css';
+import '@material/react-button/dist/button.css';
 
 const App: React.FC = () => {
   return (
@@ -19,6 +21,13 @@ const App: React.FC = () => {
           Learn React
         </a>
       </header>
+      <Button
+        raised
+        className='button-alternate'
+        onClick={() => console.log('clicked!')}
+      >
+        Click Me!
+        </Button>
     </div>
   );
 }
