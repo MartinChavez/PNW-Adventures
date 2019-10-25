@@ -1,33 +1,47 @@
 import React from 'react';
 import Button from '@material/react-button';
-import logo from './logo.svg';
+import MaterialIcon from '@material/react-material-icon';
+
+import TopAppBar, {
+  TopAppBarFixedAdjust,
+  TopAppBarIcon,
+  TopAppBarRow,
+  TopAppBarSection,
+  TopAppBarTitle,
+} from '@material/react-top-app-bar';
 import './App.css';
 import '@material/react-button/dist/button.css';
+import '@material/react-top-app-bar/dist/top-app-bar.css';
+import '@material/react-material-icon/dist/material-icon.css';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <Button
-        raised
-        className='button-alternate'
-        onClick={() => console.log('clicked!')}
-      >
-        Click Me!
-        </Button>
+    <div>
+      <TopAppBar>
+        <TopAppBarRow>
+          <TopAppBarSection align='start'>
+            <TopAppBarIcon navIcon tabIndex={0}>
+              <MaterialIcon hasRipple icon='menu' onClick={() => console.log('click')} />
+            </TopAppBarIcon>
+            <TopAppBarTitle>Seattle, WA</TopAppBarTitle>
+          </TopAppBarSection>
+          <TopAppBarSection align='end' role='toolbar'>
+            <TopAppBarIcon actionItem tabIndex={0}>
+              <MaterialIcon
+                aria-label="print page"
+                hasRipple
+                icon='print'
+                onClick={() => console.log('print')}
+              />
+            </TopAppBarIcon>
+          </TopAppBarSection>
+        </TopAppBarRow>
+      </TopAppBar>
+      <TopAppBarFixedAdjust>
+        <Button>
+          CORRIE MCQUEWEN!
+      </Button>
+      </TopAppBarFixedAdjust>
     </div>
   );
 }

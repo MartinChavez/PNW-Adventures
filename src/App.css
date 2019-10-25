@@ -1,22 +1,10 @@
-.App {
-  text-align: center;
+
+body {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-}
+/* Assuming this class is applied to the first paragraph */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.mdc-top-app-bar--fixed-adjust {
+  margin-top: 0;
 }
