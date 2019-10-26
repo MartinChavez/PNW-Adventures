@@ -16,7 +16,7 @@ import '@material/react-material-icon/dist/material-icon.css';
 
 const App: React.FC = () => {
   return (
-    <div>
+    <>
       <TopAppBar>
         <TopAppBarRow>
           <TopAppBarSection align='start'>
@@ -42,7 +42,7 @@ const App: React.FC = () => {
           CORRIE MCQUEWEN!
       </Button>
       </TopAppBarFixedAdjust>
-    </div>
+    </>
   );
 }
 
