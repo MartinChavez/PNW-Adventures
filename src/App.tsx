@@ -28,7 +28,7 @@ const App: React.FC = () => {
           <TopAppBarSection align='end' role='toolbar'>
             <TopAppBarIcon actionItem tabIndex={0}>
               <MaterialIcon
-                aria-label="print page"
+                aria-label="share page"
                 hasRipple
                 icon='share'
                 onClick={() => console.log('print')}
