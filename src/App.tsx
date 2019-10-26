@@ -23,14 +23,14 @@ const App: React.FC = () => {
             <TopAppBarIcon navIcon tabIndex={0}>
               <MaterialIcon hasRipple icon='menu' onClick={() => console.log('click')} />
             </TopAppBarIcon>
-            <TopAppBarTitle>Seattle, WA</TopAppBarTitle>
+            <TopAppBarTitle>Pacific Northwest Adventures</TopAppBarTitle>
           </TopAppBarSection>
           <TopAppBarSection align='end' role='toolbar'>
             <TopAppBarIcon actionItem tabIndex={0}>
               <MaterialIcon
                 aria-label="print page"
                 hasRipple
-                icon='print'
+                icon='share'
                 onClick={() => console.log('print')}
               />
             </TopAppBarIcon>
