@@ -1,6 +1,5 @@
 import React from 'react';
 import TopAppBar, {
-  TopAppBarFixedAdjust,
   TopAppBarIcon,
   TopAppBarRow,
   TopAppBarSection,

@@ -15,7 +15,7 @@ const App: React.FC = () => {
       <TopAppBarFixedAdjust>
         <Button>
           CORRIE MCQUEWEN!
-      </Button>
+        </Button>
       </TopAppBarFixedAdjust>
     </>
   );
