@@ -9,10 +9,8 @@ import TopAppBar, {
   TopAppBarSection,
   TopAppBarTitle,
 } from '@material/react-top-app-bar';
-import './App.css';
-import '@material/react-button/dist/button.css';
-import '@material/react-top-app-bar/dist/top-app-bar.css';
-import '@material/react-material-icon/dist/material-icon.css';
+
+import './App.scss';
 
 const App: React.FC = () => {
   return (
