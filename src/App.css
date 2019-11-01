@@ -2,9 +2,3 @@
 body {
   margin: 0;
 }
-
-/* Assuming this class is applied to the first paragraph */
-
-.mdc-top-app-bar--fixed-adjust {
-  margin-top: 0;
-}
