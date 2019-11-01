@@ -8,10 +8,6 @@ import TopAppBar, {
 import MaterialIcon from '@material/react-material-icon';
 
 class PnwTopAppBar extends React.Component {
-  static defaultProps = {
-    msg: 'Hello everyone!'
-  }
-
   render() {
     return (
       <TopAppBar>
