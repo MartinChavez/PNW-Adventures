@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from '@material/react-button';
 import PnwTopAppBar from './PnwTopAppBar';
+import PnwGrid from './PnwGrid';
 import {
   TopAppBarFixedAdjust
 } from '@material/react-top-app-bar';
@@ -13,9 +13,8 @@ const App: React.FC = () => {
       <PnwTopAppBar>
       </PnwTopAppBar>
       <TopAppBarFixedAdjust>
-        <Button>
-          CORRIE MCQUEWEN!
-        </Button>
+        <PnwGrid>
+        </PnwGrid>
       </TopAppBarFixedAdjust>
     </>
   );
