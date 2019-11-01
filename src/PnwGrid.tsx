@@ -8,8 +8,13 @@ class PnwGrid extends React.Component {
       <Grid>
         <Row>
           <Cell columns={4}><PnwCard></PnwCard></Cell>
-          <Cell columns={4}>Cricket</Cell>
-          <Cell columns={4}>StarCraft</Cell>
+          <Cell columns={4}><PnwCard></PnwCard></Cell>
+          <Cell columns={4}><PnwCard></PnwCard></Cell>
+        </Row>
+        <Row>
+          <Cell columns={4}><PnwCard></PnwCard></Cell>
+          <Cell columns={4}><PnwCard></PnwCard></Cell>
+          <Cell columns={4}><PnwCard></PnwCard></Cell>
         </Row>
       </Grid>
     )
