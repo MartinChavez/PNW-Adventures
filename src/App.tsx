@@ -1,13 +1,8 @@
 import React from 'react';
 import Button from '@material/react-button';
-import MaterialIcon from '@material/react-material-icon';
-
-import TopAppBar, {
-  TopAppBarFixedAdjust,
-  TopAppBarIcon,
-  TopAppBarRow,
-  TopAppBarSection,
-  TopAppBarTitle,
+import PnwTopAppBar from './PnwTopAppBar';
+import {
+  TopAppBarFixedAdjust
 } from '@material/react-top-app-bar';
 
 import './App.scss';
@@ -15,26 +10,8 @@ import './App.scss';
 const App: React.FC = () => {
   return (
     <>
-      <TopAppBar>
-        <TopAppBarRow>
-          <TopAppBarSection align='start'>
-            <TopAppBarIcon navIcon tabIndex={0}>
-              <MaterialIcon hasRipple icon='menu' onClick={() => console.log('click')} />
-            </TopAppBarIcon>
-            <TopAppBarTitle>Pacific Northwest Adventures</TopAppBarTitle>
-          </TopAppBarSection>
-          <TopAppBarSection align='end' role='toolbar'>
-            <TopAppBarIcon actionItem tabIndex={0}>
-              <MaterialIcon
-                aria-label="share page"
-                hasRipple
-                icon='share'
-                onClick={() => console.log('print')}
-              />
-            </TopAppBarIcon>
-          </TopAppBarSection>
-        </TopAppBarRow>
-      </TopAppBar>
+      <PnwTopAppBar>
+      </PnwTopAppBar>
       <TopAppBarFixedAdjust>
         <Button>
           CORRIE MCQUEWEN!
