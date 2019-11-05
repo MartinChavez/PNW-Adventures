@@ -6,8 +6,19 @@ import {
 } from '@material/react-top-app-bar';
 
 import './App.scss';
+import adventures from './data/adventures.json';
 
-class App extends React.Component {
+type AppProps = {}
+
+class App extends React.Component<AppProps> {
+
+  constructor(props: AppProps) {
+    super(props);
+
+    console.log(adventures)
+  }
+
+
   render() {
     return (
       <>
