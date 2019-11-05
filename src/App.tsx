@@ -7,17 +7,19 @@ import {
 
 import './App.scss';
 
-const App: React.FC = () => {
-  return (
-    <>
-      <PnwTopAppBar>
-      </PnwTopAppBar>
-      <TopAppBarFixedAdjust>
-        <PnwGrid>
-        </PnwGrid>
-      </TopAppBarFixedAdjust>
-    </>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <>
+        <PnwTopAppBar>
+        </PnwTopAppBar>
+        <TopAppBarFixedAdjust>
+          <PnwGrid>
+          </PnwGrid>
+        </TopAppBarFixedAdjust>
+      </>
+    )
+  }
 }
 
 export default App;
