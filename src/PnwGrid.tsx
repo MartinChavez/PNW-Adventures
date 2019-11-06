@@ -1,20 +1,26 @@
 import React from 'react';
 import { Cell, Grid, Row } from '@material/react-layout-grid';
 import PnwCard from './PnwCard';
+import Adventure from './Adventure'
 
-class PnwGrid extends React.Component {
+type PnwGridProps = {
+  adventures: Adventure[]
+}
+
+class PnwGrid extends React.Component<PnwGridProps> {
+
+  adventures: Adventure[];
+
+  constructor(props: PnwGridProps) {
+    super(props);
+    this.adventures = props.adventures;
+  }
+
   render() {
     return (
       <Grid>
         <Row>
-          <Cell columns={4}><PnwCard></PnwCard></Cell>
-          <Cell columns={4}><PnwCard></PnwCard></Cell>
-          <Cell columns={4}><PnwCard></PnwCard></Cell>
-        </Row>
-        <Row>
-          <Cell columns={4}><PnwCard></PnwCard></Cell>
-          <Cell columns={4}><PnwCard></PnwCard></Cell>
-          <Cell columns={4}><PnwCard></PnwCard></Cell>
+          {this.adventures.map(adventure => <Cell columns={4}><PnwCard></PnwCard></Cell>)}
         </Row>
       </Grid>
     )

@@ -32,7 +32,7 @@ class App extends React.Component<AppProps> {
         <PnwTopAppBar>
         </PnwTopAppBar>
         <TopAppBarFixedAdjust>
-          <PnwGrid>
+          <PnwGrid adventures={this.adventures}>
           </PnwGrid>
         </TopAppBarFixedAdjust>
       </>
