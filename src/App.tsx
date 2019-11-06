@@ -7,7 +7,7 @@ import {
 
 import './App.scss';
 import adventures from './data/adventures.json';
-import Adventure from './Adventure'
+import Adventure, { fromAdventureJson } from './Adventure'
 
 type AppProps = {}
 
@@ -16,15 +16,7 @@ class App extends React.Component<AppProps> {
   adventures: Adventure[];
 
   populateAdventures() {
-
-    adventures.forEach(adventure => {
-      this.adventures.push({
-        name: adventure.name,
-        imageUrl: adventure.imageUrl,
-        smallDescription: adventure.smallDescription,
-        description: adventure.description
-      });
-    })
+    this.adventures = adventures.map(fromAdventureJson)
   }
 
   constructor(props: AppProps) {
