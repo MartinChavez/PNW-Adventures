@@ -7,17 +7,32 @@ import {
 
 import './App.scss';
 import adventures from './data/adventures.json';
+import Adventure from './Adventure'
 
 type AppProps = {}
 
 class App extends React.Component<AppProps> {
 
-  constructor(props: AppProps) {
-    super(props);
+  adventures: Adventure[];
 
-    console.log(adventures)
+  populateAdventures() {
+
+    adventures.forEach(adventure => {
+      this.adventures.push({
+        name: adventure.name,
+        imageUrl: adventure.imageUrl,
+        smallDescription: adventure.smallDescription,
+        description: adventure.description
+      });
+    })
   }
 
+  constructor(props: AppProps) {
+    super(props);
+    this.adventures = [];
+    this.populateAdventures();
+    console.log(this.adventures)
+  }
 
   render() {
     return (
