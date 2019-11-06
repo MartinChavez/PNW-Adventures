@@ -3,14 +3,24 @@ import Card, {
   CardPrimaryContent,
   CardMedia
 } from "@material/react-card";
-import {
-  Body2,
-  Headline6
-} from '@material/react-typography';
+import { Body2 } from '@material/react-typography';
 import image from './logo512.png'
 import './PnwCard.scss';
+import Adventure from './Adventure'
 
-class PnwCard extends React.Component {
+type PnwCardProps = {
+  adventure: Adventure
+}
+
+class PnwCard extends React.Component<PnwCardProps> {
+
+  adventure: Adventure;
+
+  constructor(props: PnwCardProps) {
+    super(props);
+    this.adventure = props.adventure;
+  }
+
   render() {
     return (
       <Card>
@@ -21,10 +31,10 @@ class PnwCard extends React.Component {
           >
           </CardMedia>
           <div className='adventures-card__text-label'>
-            Our Changing Planet
+            {this.adventure.name}
           </div>
           <Body2 className='adventures-card__secondary'>
-            Visit ten places on our planet that are undergoing the biggest changes today.
+            {this.adventure.smallDescription}
           </Body2>
         </CardPrimaryContent>
       </Card>

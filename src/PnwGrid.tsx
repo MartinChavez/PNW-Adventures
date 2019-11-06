@@ -20,7 +20,7 @@ class PnwGrid extends React.Component<PnwGridProps> {
     return (
       <Grid>
         <Row>
-          {this.adventures.map(adventure => <Cell columns={4}><PnwCard></PnwCard></Cell>)}
+          {this.adventures.map(adventure => <Cell columns={4}><PnwCard adventure={adventure}></PnwCard></Cell>)}
         </Row>
       </Grid>
     )
