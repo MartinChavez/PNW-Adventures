@@ -1,5 +1,6 @@
 
 export interface Adventure {
+    id: number;
     name: string;
     imageUrl: string;
     smallDescription: string;
@@ -8,6 +9,7 @@ export interface Adventure {
 
 export const fromAdventureJson = (adventure: Adventure) => {
     return {
+        id: adventure.id,
         name: adventure.name,
         imageUrl: adventure.imageUrl,
         smallDescription: adventure.smallDescription,

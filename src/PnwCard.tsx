@@ -21,9 +21,13 @@ class PnwCard extends React.Component<PnwCardProps> {
     this.adventure = props.adventure;
   }
 
+  onClick = (e: any) => {
+    alert(this.adventure.id)
+  }
+
   render() {
     return (
-      <Card>
+      <Card onClick={this.onClick}>
         <CardPrimaryContent>
           <CardMedia
             square

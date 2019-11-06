@@ -18,7 +18,6 @@ class App extends React.Component<AppProps> {
   constructor(props: AppProps) {
     super(props);
     this.adventures = adventures.map(fromAdventureJson);
-    console.log(this.adventures)
   }
 
   render() {
