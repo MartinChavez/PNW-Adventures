@@ -4,7 +4,6 @@ import Card, {
   CardMedia
 } from "@material/react-card";
 import { Body2 } from '@material/react-typography';
-import image from './media/logo512.png'
 import './PnwCard.scss';
 import Adventure from './Adventure'
 
