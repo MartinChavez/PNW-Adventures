@@ -4,7 +4,7 @@ import Card, {
   CardMedia
 } from "@material/react-card";
 import { Body2 } from '@material/react-typography';
-import image from './logo512.png'
+import image from './media/logo512.png'
 import './PnwCard.scss';
 import Adventure from './Adventure'
 
@@ -15,10 +15,12 @@ type PnwCardProps = {
 class PnwCard extends React.Component<PnwCardProps> {
 
   adventure: Adventure;
+  imageUrl: string;
 
   constructor(props: PnwCardProps) {
     super(props);
     this.adventure = props.adventure;
+    this.imageUrl = require('./media/' + this.adventure.imageUrl)
   }
 
   onClick = (e: any) => {
@@ -31,7 +33,7 @@ class PnwCard extends React.Component<PnwCardProps> {
         <CardPrimaryContent>
           <CardMedia
             square
-            imageUrl={image}
+            imageUrl={this.imageUrl}
           >
           </CardMedia>
           <div className='adventures-card__text-label'>
