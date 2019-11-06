@@ -15,14 +15,9 @@ class App extends React.Component<AppProps> {
 
   adventures: Adventure[];
 
-  populateAdventures() {
-    this.adventures = adventures.map(fromAdventureJson)
-  }
-
   constructor(props: AppProps) {
     super(props);
-    this.adventures = [];
-    this.populateAdventures();
+    this.adventures = adventures.map(fromAdventureJson);
     console.log(this.adventures)
   }
 
