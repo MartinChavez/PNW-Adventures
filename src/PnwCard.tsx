@@ -3,7 +3,10 @@ import Card, {
   CardPrimaryContent,
   CardMedia
 } from "@material/react-card";
-import { Body2 } from '@material/react-typography';
+import {
+  Body2,
+  Headline2
+} from '@material/react-typography';
 import './PnwCard.scss';
 import Adventure from './Adventure'
 
@@ -35,9 +38,7 @@ class PnwCard extends React.Component<PnwCardProps> {
             imageUrl={this.imageUrl}
           >
           </CardMedia>
-          <div className='adventures-card__text-label'>
-            {this.adventure.name}
-          </div>
+          <Headline2 className='adventures-card__text-label'>{this.adventure.name}</Headline2>
           <Body2 className='adventures-card__secondary'>
             {this.adventure.smallDescription}
           </Body2>
