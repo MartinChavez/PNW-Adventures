@@ -1,0 +1,16 @@
+@import "@material/typography/mixins";
+
+.adventures-card__text-label {
+  margin: 0 16px;
+  @include mdc-typography(headline6);
+  @include mdc-typography-baseline-top(32px);
+}
+
+$card-secondary-baseline: 16px;
+
+.adventures-card__secondary {
+  margin: 0 16px;
+  @include mdc-typography(body2);
+  @include mdc-typography-baseline-top(24px);
+  @include mdc-typography-baseline-bottom(-$card-secondary-baseline);
+}
