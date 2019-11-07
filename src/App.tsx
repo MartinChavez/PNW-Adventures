@@ -26,6 +26,10 @@ class App extends React.Component<AppProps> {
     this.adventures = adventures.map(fromAdventureJson);
   }
 
+  getAdventure(adventureId: number): Adventure {
+    return this.adventures.filter(adventure => adventure.id == adventureId)[0];
+  }
+
   render() {
     return (
       <>
@@ -38,7 +42,8 @@ class App extends React.Component<AppProps> {
                 <PnwGrid adventures={this.adventures}>
                 </PnwGrid>
               </Route>
-              <Route path="/adventures/:adventureId" render={(props) => <PnwAdventure {...props} adventure={this.adventures[props.match.params.adventureId]} />} />
+              <Route path="/adventures/:adventureId" render={(props) =>
+                <PnwAdventure {...props} adventure={this.getAdventure(props.match.params.adventureId)} />} />
             </Switch>
           </Router>
         </TopAppBarFixedAdjust>
