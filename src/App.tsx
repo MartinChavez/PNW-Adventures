@@ -34,7 +34,6 @@ class App extends React.Component<AppProps> {
   render() {
     return (
       <Router>
-
         <Switch>
           <Route exact path="/">
             <PnwTopAppBar>
