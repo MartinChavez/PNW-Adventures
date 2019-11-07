@@ -26,8 +26,9 @@ class App extends React.Component<AppProps> {
     this.adventures = adventures.map(fromAdventureJson);
   }
 
-  getAdventure(adventureId: number): Adventure {
-    return this.adventures.filter(adventure => adventure.id == adventureId)[0];
+  getAdventure(adventureId: string): Adventure {
+    const id = Number(adventureId);
+    return this.adventures.filter(adventure => adventure.id === id)[0];
   }
 
   render() {
