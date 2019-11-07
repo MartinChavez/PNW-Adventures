@@ -39,10 +39,8 @@ class App extends React.Component<AppProps> {
         <TopAppBarFixedAdjust>
           <Router>
             <Switch>
-              <Route exact path="/">
-                <PnwGrid adventures={this.adventures}>
-                </PnwGrid>
-              </Route>
+              <Route exact path="/" render={(props) =>
+                <PnwGrid {...props} adventures={this.adventures} />} />
               <Route path="/adventures/:adventureId" render={(props) =>
                 <PnwAdventure {...props} adventure={this.getAdventure(props.match.params.adventureId)} />} />
             </Switch>

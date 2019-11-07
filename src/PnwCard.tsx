@@ -9,24 +9,31 @@ import {
 } from '@material/react-typography';
 import './PnwCard.scss';
 import Adventure from './Adventure'
+import {
+  RouteComponentProps
+} from 'react-router-dom'
 
 type PnwCardProps = {
   adventure: Adventure
 }
 
-class PnwCard extends React.Component<PnwCardProps> {
+class PnwCard extends React.Component<PnwCardProps & RouteComponentProps> {
 
   adventure: Adventure;
   imageUrl: string;
 
-  constructor(props: PnwCardProps) {
+  constructor(props: PnwCardProps & RouteComponentProps) {
     super(props);
     this.adventure = props.adventure;
     this.imageUrl = require('./media/' + this.adventure.imageUrl)
   }
 
   onClick = (e: any) => {
-    alert(this.adventure.id)
+    this.props.history.push(this.getToUrl())
+  }
+
+  getToUrl() {
+    return "/adventures/" + this.adventure.id;
   }
 
   render() {
