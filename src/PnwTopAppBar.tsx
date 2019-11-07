@@ -14,19 +14,9 @@ class PnwTopAppBar extends React.Component {
         <TopAppBarRow>
           <TopAppBarSection align='start'>
             <TopAppBarIcon navIcon tabIndex={0}>
-              <MaterialIcon hasRipple icon='menu' onClick={() => console.log('click')} />
+              <MaterialIcon hasRipple icon='menu' />
             </TopAppBarIcon>
             <TopAppBarTitle>Pacific Northwest Adventures</TopAppBarTitle>
-          </TopAppBarSection>
-          <TopAppBarSection align='end' role='toolbar'>
-            <TopAppBarIcon actionItem tabIndex={0}>
-              <MaterialIcon
-                aria-label="share page"
-                hasRipple
-                icon='share'
-                onClick={() => console.log('print')}
-              />
-            </TopAppBarIcon>
           </TopAppBarSection>
         </TopAppBarRow>
       </TopAppBar>

@@ -28,7 +28,7 @@ class PnwCard extends React.Component<PnwCardProps & RouteComponentProps> {
     this.imageUrl = require('./media/' + this.adventure.imageUrl)
   }
 
-  onClick = (e: any) => {
+  onClick = () => {
     this.props.history.push(this.getToUrl())
   }
 

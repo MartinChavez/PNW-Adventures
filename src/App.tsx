@@ -1,5 +1,6 @@
 import React from 'react';
 import PnwTopAppBar from './PnwTopAppBar';
+import PnwTopAppBarAdventure from './PnwTopAppBarAdventure';
 import PnwGrid from './PnwGrid';
 import PnwAdventure from './PnwAdventure';
 import {
@@ -32,20 +33,25 @@ class App extends React.Component<AppProps> {
 
   render() {
     return (
-      <>
-        <PnwTopAppBar>
-        </PnwTopAppBar>
+      <Router>
+
+        <Switch>
+          <Route exact path="/">
+            <PnwTopAppBar>
+            </PnwTopAppBar>
+          </Route>
+          <Route path="/adventures/:adventureId" render={(props) =>
+            <PnwTopAppBarAdventure {...props} adventure={this.getAdventure(props.match.params.adventureId)} />} />
+        </Switch>
         <TopAppBarFixedAdjust>
-          <Router>
-            <Switch>
-              <Route exact path="/" render={(props) =>
-                <PnwGrid {...props} adventures={this.adventures} />} />
-              <Route path="/adventures/:adventureId" render={(props) =>
-                <PnwAdventure {...props} adventure={this.getAdventure(props.match.params.adventureId)} />} />
-            </Switch>
-          </Router>
+          <Switch>
+            <Route exact path="/" render={(props) =>
+              <PnwGrid {...props} adventures={this.adventures} />} />
+            <Route path="/adventures/:adventureId" render={(props) =>
+              <PnwAdventure {...props} adventure={this.getAdventure(props.match.params.adventureId)} />} />
+          </Switch>
         </TopAppBarFixedAdjust>
-      </>
+      </Router>
     )
   }
 }
