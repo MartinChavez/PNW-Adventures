@@ -1,5 +1,9 @@
 import React from 'react';
 import Adventure from './Adventure'
+import {
+  Headline1,
+  Body1
+} from '@material/react-typography';
 
 type PnwAdventureProps = {
   adventure: Adventure
@@ -17,8 +21,8 @@ class PnwAdventure extends React.Component<PnwAdventureProps> {
   render() {
     return (
       <>
-        <h1>{this.adventure.name}</h1>
-        <p>{this.adventure.description}</p>
+        <Headline1>{this.adventure.name}</Headline1>
+        <Body1>{this.adventure.description}</Body1>
       </>
     )
   }
