@@ -6,7 +6,12 @@
 @import '@material/layout-grid/mdc-layout-grid';
 @import '@material/card/mdc-card';
 @import '@material/react-typography/index.scss';
+@import "@material/image-list/mdc-image-list";
 
 body {
   margin: 0;
+}
+
+.my-image-list {
+  @include mdc-image-list-standard-columns(5);
 }
