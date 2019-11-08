@@ -1,9 +1,11 @@
 import React from 'react';
 import Adventure from './Adventure'
 import {
-  Headline1,
-  Body1
+  Headline3,
+  Body1,
+  Body2
 } from '@material/react-typography';
+import { Cell, Grid, Row } from '@material/react-layout-grid';
 
 type PnwAdventureProps = {
   adventure: Adventure
@@ -20,10 +22,29 @@ class PnwAdventure extends React.Component<PnwAdventureProps> {
 
   render() {
     return (
-      <>
-        <Headline1>{this.adventure.name}</Headline1>
-        <Body1>{this.adventure.description}</Body1>
-      </>
+      <Grid>
+        <Row>
+          <Cell></Cell>
+          <Cell>
+            <Headline3>{this.adventure.name}</Headline3>
+          </Cell>
+          <Cell></Cell>
+        </Row>
+        <Row>
+          <Cell></Cell>
+          <Cell>
+            <Body1>{this.adventure.smallDescription}</Body1>
+          </Cell>
+          <Cell></Cell>
+        </Row>
+        <Row>
+          <Cell></Cell>
+          <Cell>
+            <Body2>{this.adventure.description}</Body2>
+          </Cell>
+          <Cell></Cell>
+        </Row>
+      </Grid>
     )
   }
 }
