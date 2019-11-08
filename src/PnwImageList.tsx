@@ -18,7 +18,7 @@ class PnwImageList extends React.Component<PnwImageListProps> {
     return (
       <ul className="mdc-image-list mdc-image-list--masonry my-masonry-image-list">
         <li className="mdc-image-list__item">
-          <img className="mdc-image-list__image" src={require('./media/' + this.adventure.imageUrl)} />
+          <img className="mdc-image-list__image" src={require('./media/' + this.adventure.mainImage)} />
         </li>
       </ul>
     )

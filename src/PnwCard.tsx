@@ -25,7 +25,7 @@ class PnwCard extends React.Component<PnwCardProps & RouteComponentProps> {
   constructor(props: PnwCardProps & RouteComponentProps) {
     super(props);
     this.adventure = props.adventure;
-    this.imageUrl = require('./media/' + this.adventure.imageUrl)
+    this.imageUrl = require('./media/' + this.adventure.mainImage)
   }
 
   onClick = () => {
