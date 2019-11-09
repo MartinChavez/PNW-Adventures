@@ -26,25 +26,19 @@ class PnwAdventure extends React.Component<PnwAdventureProps> {
       <>
         <Grid>
           <Row>
-            <Cell></Cell>
-            <Cell>
+            <Cell columns={12}>
               <Headline3>{this.adventure.name}</Headline3>
             </Cell>
-            <Cell></Cell>
           </Row>
           <Row>
-            <Cell></Cell>
-            <Cell>
+            <Cell columns={12}>
               <Body1>{this.adventure.smallDescription}</Body1>
             </Cell>
-            <Cell></Cell>
           </Row>
           <Row>
-            <Cell></Cell>
-            <Cell>
+            <Cell columns={12}>
               <Body2>{this.adventure.description}</Body2>
             </Cell>
-            <Cell></Cell>
           </Row>
         </Grid>
         <PnwImageList adventure={this.adventure}></PnwImageList>
