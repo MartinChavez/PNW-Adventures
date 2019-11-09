@@ -19,6 +19,10 @@ class PnwGrid extends React.Component<PnwGridProps & RouteComponentProps> {
     this.adventures = props.adventures;
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <Grid>

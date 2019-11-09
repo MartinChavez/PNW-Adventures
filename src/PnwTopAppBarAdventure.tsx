@@ -24,6 +24,10 @@ class PnwTopAppBarAdventure extends React.Component<PnwTopAppBarAdventureProps &
     this.adventure = props.adventure;
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   onClick = () => {
     this.props.history.push("/")
   }
