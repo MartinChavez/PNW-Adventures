@@ -14,12 +14,16 @@ class PnwImageList extends React.Component<PnwImageListProps> {
     this.adventure = props.adventure;
   }
 
+  toListItem(image: string) {
+    return (<li className="mdc-image-list__item">
+      <img className="mdc-image-list__image" src={require('./media/' + image)} />
+    </li>)
+  }
+
   render() {
     return (
       <ul className="mdc-image-list mdc-image-list--masonry my-masonry-image-list">
-        <li className="mdc-image-list__item">
-          <img className="mdc-image-list__image" src={require('./media/' + this.adventure.mainImage)} />
-        </li>
+        {this.adventure.images.map(this.toListItem)}
       </ul>
     )
   }
