@@ -7,7 +7,6 @@ import {
   Body2,
   Headline2
 } from '@material/react-typography';
-import './PnwCard.scss';
 import Adventure from './Adventure'
 import {
   RouteComponentProps
@@ -45,10 +44,6 @@ class PnwCard extends React.Component<PnwCardProps & RouteComponentProps> {
             imageUrl={this.imageUrl}
           >
           </CardMedia>
-          <Headline2 className='adventures-card__text-label'>{this.adventure.name}</Headline2>
-          <Body2 className='adventures-card__secondary'>
-            {this.adventure.smallDescription}
-          </Body2>
         </CardPrimaryContent>
       </Card>
     )
