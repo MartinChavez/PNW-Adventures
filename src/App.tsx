@@ -9,7 +9,8 @@ import {
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  Redirect
 } from "react-router-dom";
 import './App.scss';
 import adventures from './data/adventures.json';
@@ -48,6 +49,9 @@ class App extends React.Component<AppProps> {
               <PnwGrid {...props} adventures={this.adventures} />} />
             <Route path="/adventures/:adventureId" render={(props) =>
               <PnwAdventure {...props} adventure={this.getAdventure(props.match.params.adventureId)} />} />
+            <Route>
+              <Redirect to="/" />
+            </Route>
           </Switch>
         </TopAppBarFixedAdjust>
       </Router>
