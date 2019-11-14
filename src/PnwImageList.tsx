@@ -1,5 +1,6 @@
 import React from 'react';
 import Adventure from './Adventure'
+import './PnwImageList.scss';
 
 type PnwImageListProps = {
   adventure: Adventure
@@ -22,7 +23,7 @@ class PnwImageList extends React.Component<PnwImageListProps> {
 
   render() {
     return (
-      <ul className="mdc-image-list mdc-image-list--masonry my-masonry-image-list">
+      <ul className="mdc-image-list mdc-image-list--masonry adventure-image-list">
         {this.adventure.images.map(this.toListItem)}
       </ul>
     )
