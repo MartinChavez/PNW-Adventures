@@ -26,7 +26,7 @@ class PnwGrid extends React.Component<PnwGridProps & RouteComponentProps> {
   getToCell(props: PnwGridProps & RouteComponentProps) {
     return (adventure: Adventure) => {
       return (
-        <Cell key={adventure.id} columns={4}>
+        <Cell key={adventure.id} desktopColumns={3} tabletColumns={4} phoneColumns={4}>
           <PnwCard {...this.props} adventure={adventure}>
           </PnwCard>
         </Cell>
