@@ -21,23 +21,27 @@ class PnwAdventure extends React.Component<PnwAdventureProps> {
     this.adventure = props.adventure;
   }
 
+  centerText: React.CSSProperties = {
+    textAlign: "center"
+  };
+
   render() {
     return (
       <>
         <Grid>
           <Row>
             <Cell columns={12}>
-              <Headline3>{this.adventure.name}</Headline3>
+              <Headline3 style={this.centerText}>{this.adventure.name}</Headline3>
             </Cell>
           </Row>
           <Row>
             <Cell columns={12}>
-              <Body1>{this.adventure.smallDescription}</Body1>
+              <Body1 style={this.centerText}>{this.adventure.smallDescription}</Body1>
             </Cell>
           </Row>
           <Row>
             <Cell columns={12}>
-              <Body2>{this.adventure.description}</Body2>
+              <Body2 style={this.centerText}>{this.adventure.description}</Body2>
             </Cell>
           </Row>
         </Grid>
