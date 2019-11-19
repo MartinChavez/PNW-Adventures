@@ -2,8 +2,7 @@ import React from 'react';
 import Adventure from './Adventure'
 import {
   Headline3,
-  Body1,
-  Body2
+  Body1
 } from '@material/react-typography';
 import { Cell, Grid, Row } from '@material/react-layout-grid';
 import PnwImageList from './PnwImageList';

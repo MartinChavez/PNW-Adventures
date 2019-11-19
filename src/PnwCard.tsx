@@ -3,10 +3,6 @@ import Card, {
   CardPrimaryContent,
   CardMedia
 } from "@material/react-card";
-import {
-  Body2,
-  Headline2
-} from '@material/react-typography';
 import Adventure from './Adventure'
 import {
   RouteComponentProps

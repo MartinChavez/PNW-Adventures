@@ -18,7 +18,7 @@ class PnwImageList extends React.Component<PnwImageListProps> {
   toListItem(image: string) {
     return (
       <li className="mdc-image-list__item">
-        <img className="mdc-image-list__image" src={require('./media/' + image)} />
+        <img className="mdc-image-list__image" src={require('./media/' + image)} alt="Nature" />
       </li>)
   }
 
