@@ -39,8 +39,12 @@ class PnwAdventure extends React.Component<PnwAdventureProps> {
               <Body1 style={this.centerText}>{this.adventure.smallDescription}</Body1>
             </Cell>
           </Row>
+          <Row>
+            <Cell columns={12}>
+              <PnwImageList adventure={this.adventure}></PnwImageList>
+            </Cell>
+          </Row>
         </Grid>
-        <PnwImageList adventure={this.adventure}></PnwImageList>
       </>
     )
   }

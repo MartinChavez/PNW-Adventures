@@ -15,5 +15,7 @@ $mdc-typography-styles-headline3: (
 );
 
 $mdc-typography-styles-body1: (
- color: $grey
+ color: $grey,
+ font-size: 18px,
+ font-weight: bold
 );
