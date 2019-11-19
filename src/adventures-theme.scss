@@ -7,4 +7,13 @@ $mdc-typography-font-family: unquote("Montserrat, sans-serif");
 /* Color */
 // Primary colors ($mdc-theme-primary) map to components such as app bars and buttons, while secondary colors ($mdc-theme-secondary) are used as accents on components such as FABs and selection controls.
 $mdc-theme-primary: #356859;
-$mdc-theme-secondary: #03DAC4;
+$grey: #4F4F4F;
+
+/* Custom Colors */
+$mdc-typography-styles-headline3: (
+ color: $mdc-theme-primary
+);
+
+$mdc-typography-styles-body1: (
+ color: $grey
+);
