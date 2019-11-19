@@ -1,4 +1,10 @@
+/*  Typography */
+// To change your theme's typography, we recommend importing a font from Google Fonts and setting the global font-family https://fonts.google.com
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+$mdc-typography-font-family: unquote("Montserrat, sans-serif");
+
+
 /* Color */
 // Primary colors ($mdc-theme-primary) map to components such as app bars and buttons, while secondary colors ($mdc-theme-secondary) are used as accents on components such as FABs and selection controls.
-$mdc-theme-primary: #004D40;
+$mdc-theme-primary: #356859;
 $mdc-theme-secondary: #03DAC4;
