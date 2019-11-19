@@ -5,7 +5,6 @@ export interface Adventure {
     mainImage: string;
     images: string[];
     smallDescription: string;
-    description: string;
 }
 
 export const fromAdventureJson = (adventure: Adventure) => {
@@ -14,8 +13,7 @@ export const fromAdventureJson = (adventure: Adventure) => {
         name: adventure.name,
         mainImage: adventure.mainImage,
         images: adventure.images,
-        smallDescription: adventure.smallDescription,
-        description: adventure.description,
+        smallDescription: adventure.smallDescription
     }
 }
 
