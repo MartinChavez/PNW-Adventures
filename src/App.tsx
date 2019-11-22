@@ -27,9 +27,8 @@ class App extends React.Component<AppProps> {
     this.adventures = adventures.map(fromAdventureJson);
   }
 
-  getAdventure(adventureId: string): Adventure {
-    const id = Number(adventureId);
-    return this.adventures.filter(adventure => adventure.id === id)[0];
+  getAdventure(adventurePath: string): Adventure {
+    return this.adventures.filter(adventure => adventure.path === adventurePath)[0];
   }
 
   render() {
@@ -40,15 +39,15 @@ class App extends React.Component<AppProps> {
             <PnwTopAppBar>
             </PnwTopAppBar>
           </Route>
-          <Route path="/adventures/:adventureId" render={(props) =>
-            <PnwTopAppBarAdventure {...props} adventure={this.getAdventure(props.match.params.adventureId)} />} />
+          <Route path="/adventures/:adventurePath" render={(props) =>
+            <PnwTopAppBarAdventure {...props} adventure={this.getAdventure(props.match.params.adventurePath)} />} />
         </Switch>
         <TopAppBarFixedAdjust>
           <Switch>
             <Route exact path="/" render={(props) =>
               <PnwGrid {...props} adventures={this.adventures} />} />
-            <Route path="/adventures/:adventureId" render={(props) =>
-              <PnwAdventure {...props} adventure={this.getAdventure(props.match.params.adventureId)} />} />
+            <Route path="/adventures/:adventurePath" render={(props) =>
+              <PnwAdventure {...props} adventure={this.getAdventure(props.match.params.adventurePath)} />} />
             <Route>
               <Redirect to="/" />
             </Route>

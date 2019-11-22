@@ -15,10 +15,10 @@ class PnwImageList extends React.Component<PnwImageListProps> {
     this.adventure = props.adventure;
   }
 
-  toListItem(image: string) {
+  toListItem = (image: string) => {
     return (
       <li className="mdc-image-list__item">
-        <img className="mdc-image-list__image" src={require('./media/' + image)} alt="Nature" />
+        <img className="mdc-image-list__image" src={require('./media/' + this.adventure.path + '/' + image)} alt="Nature" />
       </li>)
   }
 
