@@ -13,6 +13,7 @@ import {
 
 type PnwTopAppBarAdventureProps = {
   adventure: Adventure
+  openDialog: () => void;
 }
 
 class PnwTopAppBarAdventure extends React.Component<PnwTopAppBarAdventureProps & RouteComponentProps> {
@@ -28,8 +29,13 @@ class PnwTopAppBarAdventure extends React.Component<PnwTopAppBarAdventureProps &
     window.scrollTo(0, 0);
   }
 
-  onClick = () => {
+  onBackButtonClick = () => {
     this.props.history.push("/")
+  }
+
+  onShareButtonClick = () => {
+debugger;
+    this.props.openDialog();
   }
 
   render() {
@@ -38,7 +44,7 @@ class PnwTopAppBarAdventure extends React.Component<PnwTopAppBarAdventureProps &
         <TopAppBarRow>
           <TopAppBarSection align='start'>
             <TopAppBarIcon navIcon tabIndex={0}>
-              <MaterialIcon hasRipple icon='arrow_back' onClick={this.onClick} />
+              <MaterialIcon hasRipple icon='arrow_back' onClick={this.onBackButtonClick} />
             </TopAppBarIcon>
             <TopAppBarTitle>{this.adventure.name}</TopAppBarTitle>
           </TopAppBarSection>
@@ -48,7 +54,7 @@ class PnwTopAppBarAdventure extends React.Component<PnwTopAppBarAdventureProps &
                 aria-label="share page"
                 hasRipple
                 icon='share'
-                onClick={() => console.log('share')}
+                onClick={this.onShareButtonClick}
               />
             </TopAppBarIcon>
           </TopAppBarSection>

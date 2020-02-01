@@ -3,6 +3,7 @@ import PnwTopAppBar from './PnwTopAppBar';
 import PnwTopAppBarAdventure from './PnwTopAppBarAdventure';
 import PnwGrid from './PnwGrid';
 import PnwAdventure from './PnwAdventure';
+import ShareDialog from './ShareDialog';
 import {
   TopAppBarFixedAdjust
 } from '@material/react-top-app-bar';
@@ -17,19 +18,28 @@ import adventures from './data/adventures.json';
 import Adventure, { fromAdventureJson } from './Adventure'
 
 type AppProps = {}
+type AppState = {
+  shareDialogIsOpen: boolean;
+}
 
-class App extends React.Component<AppProps> {
+class App extends React.Component<AppProps, AppState> {
 
   adventures: Adventure[];
 
   constructor(props: AppProps) {
     super(props);
     this.adventures = adventures.map(fromAdventureJson);
+    this.state = {
+      shareDialogIsOpen: false
+    }
   }
 
   getAdventure(adventurePath: string): Adventure {
     return this.adventures.filter(adventure => adventure.path === adventurePath)[0];
   }
+
+  closeDialog = () => this.setState({ shareDialogIsOpen: false })
+  openDialog = () => this.setState({ shareDialogIsOpen: true })
 
   render() {
     return (
@@ -40,7 +50,7 @@ class App extends React.Component<AppProps> {
             </PnwTopAppBar>
           </Route>
           <Route path="/adventures/:adventurePath" render={(props) =>
-            <PnwTopAppBarAdventure {...props} adventure={this.getAdventure(props.match.params.adventurePath)} />} />
+            <PnwTopAppBarAdventure {...props} adventure={this.getAdventure(props.match.params.adventurePath)} openDialog={this.openDialog}  />} />
         </Switch>
         <TopAppBarFixedAdjust>
           <Switch>
@@ -53,6 +63,7 @@ class App extends React.Component<AppProps> {
             </Route>
           </Switch>
         </TopAppBarFixedAdjust>
+        <ShareDialog isOpen={this.state.shareDialogIsOpen } closeDialog={this.closeDialog} > </ShareDialog>
       </Router>
     )
   }
