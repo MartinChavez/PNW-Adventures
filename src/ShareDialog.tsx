@@ -8,13 +8,13 @@ type ShareDialogProps = {
 }
 
 class ShareDialog extends Component<ShareDialogProps> {
-    
+
     render() {
       return (
         <Dialog 
           open={this.props.isOpen} 
           onClose={this.props.closeDialog}>
-          <DialogTitle>Select User</DialogTitle>
+          <DialogTitle>Share</DialogTitle>
           <DialogContent>
               {/* <List avatarList>
                 {choices.map((choice, i) => (
