@@ -10,6 +10,7 @@
     "@material/react-icon-button": "^0.15.0",
     "@material/react-layout-grid": "^0.15.0",
     "@material/react-material-icon": "^0.15.0",
+    "@material/react-text-field": "^0.15.0",
     "@material/react-top-app-bar": "^0.15.0",
     "@material/react-typography": "^0.15.0",
     "@types/classnames": "^2.2.9",

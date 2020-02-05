@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Dialog, {DialogTitle, DialogContent} from '@material/react-dialog';
-
+import TextField, {HelperText, Input} from '@material/react-text-field';
+import MaterialIcon from '@material/react-material-icon';
 
 type ShareDialogProps = {
     isOpen: boolean;
@@ -9,6 +10,10 @@ type ShareDialogProps = {
 
 class ShareDialog extends Component<ShareDialogProps> {
 
+  getInputValue = () => {
+    return window.location.href;
+  }
+
     render() {
       return (
         <Dialog 
@@ -16,17 +21,12 @@ class ShareDialog extends Component<ShareDialogProps> {
           onClose={this.props.closeDialog}>
           <DialogTitle>Share</DialogTitle>
           <DialogContent>
-              {/* <List avatarList>
-                {choices.map((choice, i) => (
-                  <ListItem key={i} data-mdc-dialog-action={choice}>
-                    <ListItemGraphic graphic={
-                      <MaterialIcon icon={choice.match(/@/) ? 'person' : 'add'}/>
-                    }/>
-                    <ListItemText primaryText={choice}/>
-                  </ListItem>
-                ))
-                }
-              </List> */}
+          <TextField
+          onTrailingIconSelect={() => this.setState({value: ''})}
+          trailingIcon={<MaterialIcon role="button" icon="delete"/>}
+        ><Input
+           value={this.getInputValue()} readOnly/>
+        </TextField>
           </DialogContent>
         </Dialog>
       );
