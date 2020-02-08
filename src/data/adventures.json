@@ -1,20 +1,22 @@
 [
     {
         "id": 1,
-        "name": "Mount Rainier",
-        "path": "mount-rainier",
-        "mainImage": "mount.jpg",
+        "name": "Mount Rainier | Skyline Trail",
+        "path": "skyline-trail",
+        "mainImage": "skyline_trail_main.jpg",
         "images": [
-            "mount.jpg",
-            "mount2.jpg",
-            "mount3.jpg",
-            "mount4.jpg",
-            "mount.jpg",
-            "mount2.jpg",
-            "mount3.jpg",
-            "mount4.jpg"
+            "skyline_trail_1.jpg",
+            "skyline_trail_2.jpg",
+            "skyline_trail_3.jpg",
+            "skyline_trail_4.jpg",
+            "skyline_trail_5.jpg",
+            "skyline_trail_6.jpg",
+            "skyline_trail_7.jpg",
+            "skyline_trail_8.jpg",
+            "skyline_trail_9.jpg",
+            "skyline_trail_10.jpg"
         ],
-        "smallDescription": "Mount Rainier, also known as Tahoma or Tacoma, is a large active stratovolcano in Cascadia located 59 miles south-southeast of Seattle, in Mount Rainier National Park"
+        "smallDescription": "The trailhead is located near the entrance to the Jackson Visitor Center at Paradise, marked by stone steps inscribed with a quote by John Muir."
     },
     {
         "id": 2,
