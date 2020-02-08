@@ -17,5 +17,40 @@
             "skyline_trail_10.jpg"
         ],
         "smallDescription": "The trailhead is located near the entrance to the Jackson Visitor Center at Paradise, marked by stone steps inscribed with a quote by John Muir."
+    },
+    {
+        "id": 2,
+        "name": "Fidalgo Island",
+        "path": "fidalgo-island",
+        "mainImage": "fidalgo_island_main.jpg",
+        "images": [
+            "fidalgo_island_1.jpg",
+            "fidalgo_island_2.jpg",
+            "fidalgo_island_3.jpg",
+            "fidalgo_island_4.jpg",
+            "fidalgo_island_5.jpg",
+            "fidalgo_island_6.jpg",
+            "fidalgo_island_7.jpg",
+            "fidalgo_island_8.jpg",
+            "fidalgo_island_9.jpg",
+            "fidalgo_island_10.jpg",
+            "fidalgo_island_11.jpg",
+            "fidalgo_island_12.jpg",
+            "fidalgo_island_13.jpg",
+            "fidalgo_island_14.jpg",
+            "fidalgo_island_15.jpg",
+            "fidalgo_island_16.jpg",
+            "fidalgo_island_17.jpg",
+            "fidalgo_island_18.jpg",
+            "fidalgo_island_19.jpg",
+            "fidalgo_island_20.jpg",
+            "fidalgo_island_21.jpg",
+            "fidalgo_island_22.jpg",
+            "fidalgo_island_23.jpg",
+            "fidalgo_island_24.jpg",
+            "fidalgo_island_25.jpg",
+            "fidalgo_island_26.jpg",
+        ],
+        "smallDescription": "Fidalgo Island is an island in Skagit County, Washington, located about 60 mi north of Seattle."
     }
 ]
