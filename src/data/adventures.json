@@ -122,5 +122,31 @@
             "crystal_mountain_17.jpg"
         ],
         "smallDescription": "Crystal Mountain is a mountain and alpine ski area in the western United States, in the Cascade Range of Washington, southeast of Seattle."
-    }        
+    },
+    {
+        "id": 6,
+        "name": "Bridal Veil Falls Trail",
+        "path": "bridal-veil-falls-trail",
+        "mainImage": "bridal_vail_falls_trail_main.jpeg",
+        "images": [
+            "bridal_vail_falls_trail_1.jpeg",
+            "bridal_vail_falls_trail_2.jpg",
+            "bridal_vail_falls_trail_3.jpg",
+            "bridal_vail_falls_trail_4.jpg",
+            "bridal_vail_falls_trail_5.jpg",
+            "bridal_vail_falls_trail_6.jpg",
+            "bridal_vail_falls_trail_7.jpg",
+            "bridal_vail_falls_trail_8.jpg",
+            "bridal_vail_falls_trail_9.jpg",
+            "bridal_vail_falls_trail_10.jpg",
+            "bridal_vail_falls_trail_11.jpg",
+            "bridal_vail_falls_trail_12.jpg",
+            "bridal_vail_falls_trail_13.jpg",
+            "bridal_vail_falls_trail_14.jpg",
+            "bridal_vail_falls_trail_15.jpg",
+            "bridal_vail_falls_trail_16.jpg",
+            "bridal_vail_falls_trail_17.jpg"
+        ],
+        "smallDescription": "Bridal Veil Falls Trail is a 3.7 mile moderately trafficked out and back trail located near Index, Washington."
+    }         
 ]
