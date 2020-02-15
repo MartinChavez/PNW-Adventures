@@ -52,5 +52,25 @@
             "fidalgo_island_26.jpeg"
         ],
         "smallDescription": "Fidalgo Island is an island in Skagit County, Washington, located about 60 mi north of Seattle."
-    }
+    },
+    {
+        "id": 3,
+        "name": "Padilla Bay",
+        "path": "padilla-bay",
+        "mainImage": "padilla_bay_main.jpg",
+        "images": [
+            "padilla_bay_1.jpg",
+            "padilla_bay_2.jpeg",
+            "padilla_bay_3.jpeg",
+            "padilla_bay_4.jpg",
+            "padilla_bay_5.jpg",
+            "padilla_bay_6.jpg",
+            "padilla_bay_7.jpg",
+            "padilla_bay_8.jpg",
+            "padilla_bay_9.jpg",
+            "padilla_bay_10.jpg",
+            "padilla_bay_11.jpg"
+        ],
+        "smallDescription": "Padilla Bay is bay located in the U.S. state of Washington, between the San Juan Islands and the mainland."
+    }    
 ]
