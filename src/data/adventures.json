@@ -72,5 +72,29 @@
             "padilla_bay_11.jpg"
         ],
         "smallDescription": "Padilla Bay is bay located in the U.S. state of Washington, between the San Juan Islands and the mainland."
-    }    
+    },
+    {
+        "id": 4,
+        "name": "Lime Kiln Trail",
+        "path": "lime-kiln-trail",
+        "mainImage": "lime_kiln_trail_main.jpg",
+        "images": [
+            "lime_kiln_trail_1.jpg",
+            "lime_kiln_trail_2.jpg",
+            "lime_kiln_trail_3.jpg",
+            "lime_kiln_trail_4.jpg",
+            "lime_kiln_trail_5.jpg",
+            "lime_kiln_trail_6.jpg",
+            "lime_kiln_trail_7.jpg",
+            "lime_kiln_trail_8.jpg",
+            "lime_kiln_trail_9.jpg",
+            "lime_kiln_trail_10.jpg",
+            "lime_kiln_trail_11.jpg",
+            "lime_kiln_trail_12.jpg",
+            "lime_kiln_trail_13.jpg",
+            "lime_kiln_trail_14.jpg",
+            "lime_kiln_trail_15.jpg"
+        ],
+        "smallDescription": "Lime Kiln Trail is a 6.7 mile moderately trafficked out and back trail located near Granite Falls, Washington that features a river and is rated as moderate."
+    }       
 ]
