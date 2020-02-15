@@ -77,7 +77,7 @@
         "id": 4,
         "name": "Lime Kiln Trail",
         "path": "lime-kiln-trail",
-        "mainImage": "lime_kiln_trail_main.jpg",
+        "mainImage": "lime_kiln_trail_main.png",
         "images": [
             "lime_kiln_trail_1.jpg",
             "lime_kiln_trail_2.jpg",
@@ -96,5 +96,31 @@
             "lime_kiln_trail_15.jpg"
         ],
         "smallDescription": "Lime Kiln Trail is a 6.7 mile moderately trafficked out and back trail located near Granite Falls, Washington that features a river and is rated as moderate."
-    }       
+    },
+    {
+        "id": 5,
+        "name": "Crystal Mountain",
+        "path": "crystal-mountain",
+        "mainImage": "crystal_mountain_main.jpg",
+        "images": [
+            "crystal_mountain_1.jpg",
+            "crystal_mountain_2.jpg",
+            "crystal_mountain_3.jpg",
+            "crystal_mountain_4.jpg",
+            "crystal_mountain_5.jpg",
+            "crystal_mountain_6.jpg",
+            "crystal_mountain_7.jpg",
+            "crystal_mountain_8.jpg",
+            "crystal_mountain_9.jpg",
+            "crystal_mountain_10.jpg",
+            "crystal_mountain_11.jpg",
+            "crystal_mountain_12.jpg",
+            "crystal_mountain_13.jpg",
+            "crystal_mountain_14.jpg",
+            "crystal_mountain_15.jpg",
+            "crystal_mountain_16.jpg",
+            "crystal_mountain_17.jpg"
+        ],
+        "smallDescription": "Crystal Mountain is a mountain and alpine ski area in the western United States, in the Cascade Range of Washington, southeast of Seattle."
+    }        
 ]
