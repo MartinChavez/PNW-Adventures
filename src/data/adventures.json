@@ -171,5 +171,27 @@
             "smith_tower_14.jpg"
         ],
         "smallDescription": "Smith Tower is a skyscraper in Pioneer Square in Seattle, Washington."
-    }          
+    },{      
+        "id": 8,
+        "name": "Teneriffe Falls",
+        "path": "teneriffe-falls",
+        "mainImage": "teneriffe_falls_main.jpeg",
+        "images": [
+            "teneriffe_falls_1.jpeg",
+            "teneriffe_falls_2.jpeg",
+            "teneriffe_falls_3.jpeg",
+            "teneriffe_falls_4.jpeg",
+            "teneriffe_falls_5.jpg",
+            "teneriffe_falls_6.jpg",
+            "teneriffe_falls_7.jpg",
+            "teneriffe_falls_8.jpg",
+            "teneriffe_falls_9.jpg",
+            "teneriffe_falls_10.jpg",
+            "teneriffe_falls_11.jpg",
+            "teneriffe_falls_12.jpg",
+            "teneriffe_falls_13.jpg",
+            "teneriffe_falls_14.jpg"
+        ],
+        "smallDescription": "Teneriffe Falls via Mount Si Trailhead is a 6.2 mile moderately trafficked loop trail located near North Bend, Washington that features a waterfall and is rated as difficult."
+    }
 ]
