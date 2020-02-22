@@ -203,5 +203,17 @@
             "wonderland_trail_2.jpeg"
         ],
         "smallDescription": "The Wonderland Trail (WT) is 93 miles (150kms) long and encircles Mount Rainier. It is a strenuous hike with lots of elevation gain and loss, through lowland forests and valleys and into high alpine and sub-alpine areas."
+    },
+    {
+        "id": 10,
+        "name": "Alki Beach",
+        "path": "alki",
+        "mainImage": "alki_main.jpeg",
+        "images": [
+            "alki_1.jpeg",
+            "alki_2.jpeg",
+            "alki_3.jpeg",
+        ],
+        "smallDescription": "Alki Beach is the principal tourist attraction at Alki Point. It features sand, saltwater, bungalows, and unique local restaurants. It is generally not a popular swimming beach, owing to the cold waters of Puget Sound."
     }
 ]
