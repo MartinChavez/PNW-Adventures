@@ -171,7 +171,7 @@
             "smith_tower_14.jpg"
         ],
         "smallDescription": "Smith Tower is a skyscraper in Pioneer Square in Seattle, Washington."
-    },{      
+    },{
         "id": 8,
         "name": "Teneriffe Falls",
         "path": "teneriffe-falls",
@@ -193,5 +193,15 @@
             "teneriffe_falls_14.jpg"
         ],
         "smallDescription": "Teneriffe Falls via Mount Si Trailhead is a 6.2 mile moderately trafficked loop trail located near North Bend, Washington that features a waterfall and is rated as difficult."
+    },{
+        "id": 9,
+        "name": "Mount Rainier | Wonderland Trail",
+        "path": "wonderland-trail",
+        "mainImage": "wonderland_trail_main.jpeg",
+        "images": [
+            "wonderland_trail_1.jpeg",
+            "wonderland_trail_2.jpeg"
+        ],
+        "smallDescription": "The Wonderland Trail (WT) is 93 miles (150kms) long and encircles Mount Rainier. It is a strenuous hike with lots of elevation gain and loss, through lowland forests and valleys and into high alpine and sub-alpine areas."
     }
 ]
