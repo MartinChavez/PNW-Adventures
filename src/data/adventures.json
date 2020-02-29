@@ -220,9 +220,9 @@
         "id": 11,
         "name": "Wallace Falls",
         "path": "wallace-falls",
-        "mainImage": "wallace_falls_1.jpeg",
+        "mainImage": "wallace_falls_main.jpeg",
         "images": [
-            "wallace_falls_1.jpeg",
+            "wallace_falls_1.jpg",
             "wallace_falls_2.jpeg",
             "wallace_falls_3.jpeg",
             "wallace_falls_4.jpeg",
@@ -237,12 +237,12 @@
             "wallace_falls_12.jpeg",
             "wallace_falls_14.jpeg",
             "wallace_falls_15.jpeg",
-            "wallace_falls_16.jpeg",
+            "wallace_falls_16.jpg",
             "wallace_falls_17.jpeg",
-            "wallace_falls_18.jpeg",
+            "wallace_falls_18.jpg",
             "wallace_falls_19.jpeg",
-            "wallace_falls_20.jpeg",
-            "wallace_falls_21.jpeg",
+            "wallace_falls_20.jpg",
+            "wallace_falls_21.jpg",
             "wallace_falls_22.jpeg",
             "wallace_falls_23.jpeg",
             "wallace_falls_24.jpg",
@@ -250,22 +250,38 @@
             "wallace_falls_26.jpg",
             "wallace_falls_27.jpg",
             "wallace_falls_28.jpg",
-            "wallace_falls_29.jpg",
-            "wallace_falls_30.jpg",
-            "wallace_falls_31.jpg",
-            "wallace_falls_32.jpg",
-            "wallace_falls_33.jpg",
-            "wallace_falls_34.jpg",
-            "wallace_falls_35.jpg",
-            "wallace_falls_36.jpg",
-            "wallace_falls_37.jpg",
-            "wallace_falls_38.jpg",
-            "wallace_falls_39.jpg",
-            "wallace_falls_40.jpg",
-            "wallace_falls_41.jpg",
-            "wallace_falls_42.jpg",
-            "wallace_falls_43.jpg"
+            "wallace_falls_29.jpg"
         ],
         "smallDescription": "Wallace Falls Trail is a 5.9 mile heavily trafficked out and back trail located near Gold Bar, Washington that features a waterfall and is rated as moderate."
+    },
+    {
+        "id": 12,
+        "name": "Mill Creek Wild Life Reserve",
+        "path": "mill-creek-wildlife-reserve",
+        "mainImage": "mill_creek_wild_life_reserve_main.jpg",
+        "images": [
+            "mill_creek_wild_life_reserve_1.jpg",
+            "mill_creek_wild_life_reserve_2.jpg",
+            "mill_creek_wild_life_reserve_3.jpg"
+        ],
+        "smallDescription": "There's wildlife here, even though it's about 3 minutes from downtown Mill Creek. There's salmon in the creek and all different kinds of birds."
+    },
+    {
+        "id": 13,
+        "name": "UW Cherry Blossoms",
+        "path": "uw-cherry-blossoms",
+        "mainImage": "uw_cherry_blossoms_main.jpeg",
+        "images": [
+            "uw_cherry_blossoms_1.jpeg",
+            "uw_cherry_blossoms_2.jpeg",
+            "uw_cherry_blossoms_3.jpeg",
+            "uw_cherry_blossoms_4.jpg",
+            "uw_cherry_blossoms_5.jpg",
+            "uw_cherry_blossoms_6.jpg",
+            "uw_cherry_blossoms_7.jpg",
+            "uw_cherry_blossoms_8.jpg",
+            "uw_cherry_blossoms_9.jpg"
+        ],
+        "smallDescription": "The iconic cherry trees in the University of Washington."
     }
 ]
