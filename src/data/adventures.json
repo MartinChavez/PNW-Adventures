@@ -283,5 +283,17 @@
             "uw_cherry_blossoms_9.jpg"
         ],
         "smallDescription": "The iconic cherry trees in the University of Washington."
+    },
+    {
+        "id": 14,
+        "name": "Washington Park Arboretum",
+        "path": "washington-park-arboretum",
+        "mainImage": "washington_park_arboretum_main.jpg",
+        "images": [
+            "washington_park_arboretum_1.jpg",
+            "washington_park_arboretum_2.jpg",
+            "washington_park_arboretum_3.jpg"
+        ],
+        "smallDescription": "Washington Park is a public park in Seattle, Washington, United States, most of which is taken up by the Washington Park Arboretum, a joint project of the University of Washington, the Seattle Parks and Recreation, and the nonprofit Arboretum Foundation. Washington Park also includes a playfield and the Seattle Japanese Garden in its southwest corner."
     }
 ]
