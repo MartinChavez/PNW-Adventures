@@ -298,7 +298,7 @@
     },
     {
         "id": 15,
-        "name": "Lord Hill Park ",
+        "name": "Lord Hill Park",
         "path": "lord-hill-park",
         "mainImage": "lord_hill_park_main.jpg",
         "images": [
@@ -307,6 +307,22 @@
             "lord_hill_park_3.jpg",
             "lord_hill_park_4.jpg",
             "lord_hill_park_5.jpg"
+        ],
+        "smallDescription": "Lord Hill Regional Park is a regional country park located in Snohomish County, Washington. The park features miles of wilderness trails for equestrians and mountain bikers, as well as hikers."
+    },
+    {
+        "id": 16,
+        "name": "Gorge Amphitheatre",
+        "path": "gorge-amphitheatre",
+        "mainImage": "gorge_amphitheatre_main.jpg",
+        "images": [
+            "gorge_amphitheatre_1.jpeg",
+            "gorge_amphitheatre_2.jpg",
+            "gorge_amphitheatre_3.jpeg",
+            "gorge_amphitheatre_4.jpeg",
+            "gorge_amphitheatre_5.jpg",
+            "gorge_amphitheatre_6.jpg",
+            "gorge_amphitheatre_7.jpg"
         ],
         "smallDescription": "Lord Hill Regional Park is a regional country park located in Snohomish County, Washington. The park features miles of wilderness trails for equestrians and mountain bikers, as well as hikers."
     }
