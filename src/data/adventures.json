@@ -295,5 +295,20 @@
             "washington_park_arboretum_3.jpg"
         ],
         "smallDescription": "Washington Park is a public park in Seattle, Washington, United States, most of which is taken up by the Washington Park Arboretum, a joint project of the University of Washington, the Seattle Parks and Recreation, and the nonprofit Arboretum Foundation. Washington Park also includes a playfield and the Seattle Japanese Garden in its southwest corner."
+    },
+    {
+        "id": 15,
+        "name": "Lord Hill Park ",
+        "path": "lord-hill-park",
+        "mainImage": "lord_hill_park_main.jpg",
+        "images": [
+            "lord_hill_park_1.jpg",
+            "lord_hill_park_2.jpg",
+            "lord_hill_park_3.jpg",
+            "lord_hill_park_4.jpg",
+            "lord_hill_park_5.jpg",
+            "lord_hill_park_6.jpg"
+        ],
+        "smallDescription": "Lord Hill Regional Park is a regional country park located in Snohomish County, Washington. The park features miles of wilderness trails for equestrians and mountain bikers, as well as hikers."
     }
 ]
