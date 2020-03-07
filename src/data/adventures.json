@@ -372,5 +372,46 @@
             "sammamish_river_trail_5.jpg"
         ],
         "smallDescription": "The Sammamish River Trail is a 10.9-mile bike path and recreational trail in King County, Washington that runs along the Sammamish River from Blythe Park in Bothell to Marymoor Park in Redmond."
+    },
+    {
+        "id": 19,
+        "name": "Bob Heirman Wildlife Preserve",
+        "path": "bob-heirman-wildlife-park",
+        "mainImage": "bob_heirman_wildlife_park_main.jpg",
+        "images": [
+            "bob_heirman_wildlife_park_1.jpeg",
+            "bob_heirman_wildlife_park_2.jpeg",
+            "bob_heirman_wildlife_park_3.jpeg",
+            "bob_heirman_wildlife_park_4.jpeg",
+            "bob_heirman_wildlife_park_5.jpeg",
+            "bob_heirman_wildlife_park_6.jpeg",
+            "bob_heirman_wildlife_park_7.jpeg",
+            "bob_heirman_wildlife_park_9.jpeg",
+            "bob_heirman_wildlife_park_10.jpeg",
+            "bob_heirman_wildlife_park_11.jpg",
+            "bob_heirman_wildlife_park_12.jpg",
+            "bob_heirman_wildlife_park_13.jpg",
+            "bob_heirman_wildlife_park_14.jpg",
+            "bob_heirman_wildlife_park_15.jpg",
+            "bob_heirman_wildlife_park_16.jpg",
+            "bob_heirman_wildlife_park_17.jpg",
+            "bob_heirman_wildlife_park_18.jpg",
+            "bob_heirman_wildlife_park_19.jpg",
+            "bob_heirman_wildlife_park_20.jpg",
+            "bob_heirman_wildlife_park_21.jpg",
+            "bob_heirman_wildlife_park_22.jpg",
+            "bob_heirman_wildlife_park_23.jpg",
+            "bob_heirman_wildlife_park_24.jpg",
+            "bob_heirman_wildlife_park_25.jpg",
+            "bob_heirman_wildlife_park_26.jpg",
+            "bob_heirman_wildlife_park_27.jpg",
+            "bob_heirman_wildlife_park_28.jpg",
+            "bob_heirman_wildlife_park_29.jpg",
+            "bob_heirman_wildlife_park_20.jpg",
+            "bob_heirman_wildlife_park_31.jpg",
+            "bob_heirman_wildlife_park_32.jpg",
+            "bob_heirman_wildlife_park_33.jpg"
+        ],
+        "smallDescription": "If you just need some quiet time in nature and are not looking for a big workout, this little walk will be perfect. There is good access to the Snohomish River where you can find a place to throw a line in the water plus some good birding opportunities near the small lakes."
     }
 ]
