@@ -171,7 +171,8 @@
             "smith_tower_14.jpg"
         ],
         "smallDescription": "Smith Tower is a skyscraper in Pioneer Square in Seattle, Washington."
-    },{
+    },
+    {
         "id": 8,
         "name": "Teneriffe Falls",
         "path": "teneriffe-falls",
@@ -193,7 +194,8 @@
             "teneriffe_falls_14.jpg"
         ],
         "smallDescription": "Teneriffe Falls via Mount Si Trailhead is a 6.2 mile moderately trafficked loop trail located near North Bend, Washington that features a waterfall and is rated as difficult."
-    },{
+    },
+    {
         "id": 9,
         "name": "Mount Rainier | Wonderland Trail",
         "path": "wonderland-trail",
@@ -325,5 +327,19 @@
             "gorge_amphitheatre_7.jpg"
         ],
         "smallDescription": "The Gorge Amphitheatre, originally known as Champs de Brionne Music Theatre, is an outdoor concert venue near the Columbia River in Grant County, Washington, nine miles west of George, Washington."
+    },
+    {
+        "id": 17,
+        "name": "Sammamish River Trail",
+        "path": "sammamish-river trail",
+        "mainImage": "sammamish_river_trail_main.jpeg",
+        "images": [
+            "sammamish_river_trail_1.jpeg",
+            "sammamish_river_trail_2.jpeg",
+            "sammamish_river_trail_3.jpeg",
+            "sammamish_river_trail_4.jpg",
+            "sammamish_river_trail_5.jpg"
+        ],
+        "smallDescription": "The Sammamish River Trail is a 10.9-mile bike path and recreational trail in King County, Washington that runs along the Sammamish River from Blythe Park in Bothell to Marymoor Park in Redmond."
     }
 ]
