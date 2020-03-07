@@ -331,8 +331,8 @@
     {
         "id": 17,
         "name": "Sammamish River Trail",
-        "path": "sammamish-river trail",
-        "mainImage": "sammamish_river_trail_main.jpeg",
+        "path": "sammamish-river-trail",
+        "mainImage": "sammamish_river_trail_1.jpeg",
         "images": [
             "sammamish_river_trail_1.jpeg",
             "sammamish_river_trail_2.jpeg",
@@ -341,5 +341,36 @@
             "sammamish_river_trail_5.jpg"
         ],
         "smallDescription": "The Sammamish River Trail is a 10.9-mile bike path and recreational trail in King County, Washington that runs along the Sammamish River from Blythe Park in Bothell to Marymoor Park in Redmond."
+    },
+    {
+        "id": 18,
+        "name": "Spray Falls",
+        "path": "mount-rainier-spray-falls",
+        "mainImage": "spray_falls_main.jpeg",
+        "images": [
+            "spray_falls_1.jpeg",
+            "spray_falls_2.jpeg",
+            "spray_falls_3.jpeg",
+            "spray_falls_4.jpeg",
+            "spray_falls_5.jpeg",
+            "spray_falls_6.jpeg",
+            "spray_falls_7.jpeg",
+            "spray_falls_8.jpeg",
+            "spray_falls_9.jpeg",
+            "spray_falls_10.jpeg",
+            "spray_falls_11.jpeg",
+            "spray_falls_12.jpeg",
+            "spray_falls_13.jpeg",
+            "spray_falls_14.jpeg",
+            "spray_falls_15.jpeg",
+            "spray_falls_16.jpeg",
+            "spray_falls_17.jpeg",
+            "spray_falls_18.jpeg",
+            "spray_falls_19.jpeg",
+            "spray_falls_20.jpeg",
+            "spray_falls_21.jpeg",
+            "spray_falls_22.jpeg"
+        ],
+        "smallDescription": "Spray Falls is a waterfall in the Mount Rainier National Park in Pierce County, Washington. The falls are fed by Spray Creek, which is a tributary of the Puyallup River."
     }
 ]
