@@ -1,6 +1,7 @@
 ## Pacific Northwest Adventures | [Web App](https://martinchavez.github.io/PNW-Adventures)
 
-Pictures of the beautiful Pacific Northwest!
+Web App created to showcase the beauty of the Pacific Northwest.
+React, Typescript, Material Design and Sass.
 
 ![Pacific Northwest Adventures](PacificNorthwestAdventures.png)
 
