@@ -81,9 +81,7 @@ class App extends React.Component<AppProps, AppState> {
         <ShareDialog
           isOpen={this.state.shareDialogIsOpen}
           closeDialog={this.closeDialog}
-        >
-          {" "}
-        </ShareDialog>
+        ></ShareDialog>
       </HashRouter>
     );
   }
