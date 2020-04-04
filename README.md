@@ -2,7 +2,9 @@
 
 Pictures of the beautiful Pacific Northwest!
 
-![Pacific Northwest Adventures](Main.png)
+![Pacific Northwest Adventures](PacificNorthwestAdventures.png)
+
+![Bob Heirman Wildlife Preserve](BobHeirmanWildlifePreserve.png)
 
 ## Author
 
