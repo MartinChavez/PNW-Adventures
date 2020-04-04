@@ -2,11 +2,11 @@
 
 Pictures of the beautiful Pacific Northwest!
 
-![Pacific Northwest Adventures ](Main.png)
+![Pacific Northwest Adventures](Main.png)
 
 ## Author
 
-- **Martin Chavez** - [Profile](https://github.com/MartinChavez)
+**[Martin Chavez](https://github.com/MartinChavez)**
 
 ## License
 
