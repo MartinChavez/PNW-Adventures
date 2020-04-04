@@ -16,7 +16,7 @@ class PnwTopAppBar extends React.Component {
             <TopAppBarIcon navIcon>
               <img src={pnwLogo} alt="PNW Logo" />
             </TopAppBarIcon>
-            <TopAppBarTitle>Pacific Northwest Adventures2</TopAppBarTitle>
+            <TopAppBarTitle>Pacific Northwest Adventures</TopAppBarTitle>
           </TopAppBarSection>
         </TopAppBarRow>
       </TopAppBar>
