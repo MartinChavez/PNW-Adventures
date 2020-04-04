@@ -2,7 +2,7 @@
 
 Pictures of the beautiful Pacific Northwest!
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Pacific Northwest Adventures ](Main.png)
 
 ## Author
 
