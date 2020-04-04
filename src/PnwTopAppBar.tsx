@@ -1,28 +1,26 @@
-import React from 'react';
+import React from "react";
 import TopAppBar, {
   TopAppBarIcon,
   TopAppBarRow,
   TopAppBarSection,
   TopAppBarTitle,
-} from '@material/react-top-app-bar';
-import pnwLogo from './media/icons/logo.png'; //
+} from "@material/react-top-app-bar";
+import pnwLogo from "./media/icons/logo.png"; //
 
 class PnwTopAppBar extends React.Component {
   render() {
     return (
       <TopAppBar>
         <TopAppBarRow>
-          <TopAppBarSection align='start'>
+          <TopAppBarSection align="start">
             <TopAppBarIcon navIcon>
               <img src={pnwLogo} alt="PNW Logo" />
             </TopAppBarIcon>
-            <TopAppBarTitle>
-              Pacific Northwest Adventures
-              </TopAppBarTitle>
+            <TopAppBarTitle>Pacific Northwest Adventures2</TopAppBarTitle>
           </TopAppBarSection>
         </TopAppBarRow>
       </TopAppBar>
-    )
+    );
   }
 }
 
