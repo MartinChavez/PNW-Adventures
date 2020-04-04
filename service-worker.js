@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/PNW-Adventures/precache-manifest.767c73a269b01bce8a7f32c2cef17839.js"
+  "/PNW-Adventures/precache-manifest.65ad1b7c05cb9380b21f300f771b7d59.js"
 );
 
 self.addEventListener('message', (event) => {
