@@ -1,6 +1,6 @@
-## Pacific Northwest Adventures
+## Pacific Northwest Adventures | [Web App](https://martinchavez.github.io/PNW-Adventures)
 
-Pictures of the beautiful Pacific Northwest! - [Web App](https://martinchavez.github.io/PNW-Adventures)
+Pictures of the beautiful Pacific Northwest!
 
 ## Author
 
@@ -8,4 +8,4 @@ Pictures of the beautiful Pacific Northwest! - [Web App](https://martinchavez.gi
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
