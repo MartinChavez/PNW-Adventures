@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f5143c09fcc574f285818bf4211aadb",
+    "revision": "2a679e5212ed892902e4441bdbb1b20e",
     "url": "/PNW-Adventures/index.html"
   },
   {
-    "revision": "3958bea1b53b54ba80b9",
+    "revision": "ee293a3b4bd63395be2c",
     "url": "/PNW-Adventures/static/css/main.8e019ae8.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PNW-Adventures/static/js/2.50f1b634.chunk.js"
   },
   {
-    "revision": "3958bea1b53b54ba80b9",
-    "url": "/PNW-Adventures/static/js/main.1cb455c8.chunk.js"
+    "revision": "ee293a3b4bd63395be2c",
+    "url": "/PNW-Adventures/static/js/main.7cb2cab4.chunk.js"
   },
   {
     "revision": "a268e35041ad313a2d1d",
