@@ -2,6 +2,8 @@
 
 Pictures of the beautiful Pacific Northwest!
 
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
 ## Author
 
 - **Martin Chavez** - [Profile](https://github.com/MartinChavez)
